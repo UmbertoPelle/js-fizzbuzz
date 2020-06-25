@@ -4,18 +4,14 @@ var list = document.getElementById("buzzList");
 for (var i = 0; i < 101; i++) {
   // Per i numeri che sono sia multipli di 3 che di 5 stampi "FizzBuzz" al posto del numero.
   if (i % 3 == 0 && i % 5 == 0) {
-    list.innerHTML += "<li>" + "FizzBuzz" + "</li>"
-    console.log("FizzBuzz");
+    list.innerHTML += "<li class="+"green"+">" + "FizzBuzz" + "</li>"
     // Per i multipli di 3 stampi “Fizz” al posto del numero.
   }else if (i % 3 == 0) {
-    list.innerHTML += "<li>" + "Fizz" + "</li>"
-    console.log("Fizz");
+    list.innerHTML += "<li class="+"blue"+">" + "Fizz" + "</li>"
     // Per i multipli di 5 stampi "Buzz" al posto del numero.
   }else if (i % 5 == 0) {
-    list.innerHTML += "<li>" + "Buzz" + "</li>"
-    console.log("Buzz");
+    list.innerHTML += "<li class="+"red"+">" + "Buzz" + "</li>"
   }else {
     list.innerHTML += "<li>" + i + "</li>"
-    console.log(i);
   }
 }
