@@ -1,3 +1,7 @@
+body{
+  color: tomato;
+  text-align: center;
+}
 .red{
   color: red;
 }
@@ -13,4 +17,7 @@
 ul li {
   list-style: none;
   font-size: 30px;
+}
+i{
+  font-size: 65px;
 }
