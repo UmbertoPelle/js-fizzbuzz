@@ -1,5 +1,5 @@
 //scrivi un programma che stampi i numeri da 1 a 100.
-for (var i = 0; i < 100; i++) {
+for (var i = 0; i < 101; i++) {
   // Per i numeri che sono sia multipli di 3 che di 5 stampi "FizzBuzz" al posto del numero.
   if (i % 3 == 0 && i % 5 == 0) {
     console.log("FizzBuzz");
@@ -10,6 +10,6 @@ for (var i = 0; i < 100; i++) {
   }else if (i % 5 == 0) {
     console.log("Buzz");
   }else {
-    console.log(i + 1);
+    console.log(i);
   }
 }
